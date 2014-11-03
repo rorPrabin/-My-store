@@ -37,5 +37,9 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 # Spree is an open source e-commerce framework for Ruby on Rails.
-gem 'spree', '~> 2.3.4'
+gem 'spree'
+#  Spree authentication
+gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '2-3-stable'
+
